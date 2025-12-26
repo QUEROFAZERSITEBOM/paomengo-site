@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Pãomengo 🔥🍞</title>
+<style>
+    body {
+        background: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 30px;
+    }
+    h1 {
+        color: gold;
+        text-shadow: 0 0 10px red, 0 0 20px orange;
+    }
+    p {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .aura {
+        font-size: 20px;
+        margin-top: 20px;
+        border: 2px solid gold;
+        padding: 15px;
+        display: inline-block;
+        border-radius: 10px;
+        text-shadow: 0 0 5px red;
+    }
+    .gogo {
+        color: red;
+        font-weight: bold;
+        animation: blink 0.5s infinite;
+    }
+    @keyframes blink {
+        0%, 50%, 100% { opacity: 1; }
+        25%, 75% { opacity: 0; }
+    }
+    #pao {
+        width: 150px;
+        margin-top: 20px;
+        animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+    }
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-shadow: 0 0 5px black;
+    }
+</style>
+</head>
+<body>
+
+<h1>🔥 Pãomengo Oficial 🍞🔥</h1>
+
+<p>Uma vez pãozinho, sempre pãozinho.<br>O pão domina tudo, é aura e é poder.</p>
+
+<div class="aura">
+💫 Aura: +9999<br>
+😎 Ego: equilibrado<br>
+👑 Respeito: máximo <span class="gogo">GOGOGOGOGOGI</span>
+</div>
+
+<img id="pao" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Pao_frances.png" alt="Pão">
+
+<br>
+<button onclick="alert('Cospe Aura! 💫🔥')">Cospe Aura!</button>
+
+</body>
+</html><img src="pao.png" alt="Pão com aura" id="pao">#pao {
+    width: 200px;
+    animation: pulse 1s infinite;
+    box-shadow: 0 0 20px red;
+    border-radius: 10px;
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}<style>
+#pao {
+    width: 200px;            /* tamanho da imagem */
+    animation: pulse 1s infinite; /* efeito pulsante */
+    box-shadow: 0 0 20px red;     /* aura vermelha em volta */
+    border-radius: 10px;          /* cantos arredondados */
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+</style>
